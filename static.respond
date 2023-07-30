@@ -1,0 +1,42 @@
+{
+    "motd": "你好，欢迎来到我的源，这是在你使用我的源之后要注意的事项：1.本源会...",
+    "motd_time": "10",
+    "0": {
+        "name": "游戏1",
+        "preview": "https://static.launchersu.net/custom_game.png",
+        "processName": "game.exe",
+        "gameid": "游戏的Steam AppID，选填,不需要请留空",
+        "list": [{
+            "name": "显示的名字",
+            "descript": "描述",
+            "lastupd": "最后更新日期",
+            "dlurl": "下载链接",
+            "disabled": "是否禁止加载,填写0或者1",
+            "compressed": "指示dll是否被zlib压缩,填写0或者1",
+            "MD5": "dll的MD5,用于下载校验,选填,不需要请留空"
+        }, {
+            "name": "My Cheat",
+            "descript": "F1 - ESP F2 - AimBot F3 - Glow",
+            "lastupd": "2022-1-1 00:00:00",
+            "dlurl": "http://mydomain.com/MyCheat.dll",
+            "disabled": "0",
+            "compressed": "0",
+            "MD5": ""
+        }]
+    },
+    "1": {
+        "name": "csgo",
+        "preview": "https://static.launchersu.net/custom_game.png",
+        "processName": "csgo.exe",
+        "gameid": "730",
+        "list": [{
+            "name": "Glow Internal",
+            "descirpt": "F1 - Glow F2 - AimBot",
+            "lastupd": "2022-1-1 00:00:00",
+            "dlurl": "http://mydomain.com/GlowInternal.dll",
+            "disabled": "0",
+            "compressed": "0",
+            "MD5": ""
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+﻿<html data-dpr="1" style="font-size: 40px;">
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>海不眠 - Like you</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+    <div style="padding-top: 30px;">
+        <center>
+            <img src="https://qlogo4.store.qq.com/qzone/3241675518/3241675518/100?1600319340">
+            <div class="btn">
+                <a><span>I like you,but I don't love you.</span></a>
+            </div>
+        </center>
+    </div>
+    <div class="lz" style="margin-top: 10px;">
+        <center><a href="https://www.2fzb.com" target="_blank"><button class="button" style="padding-left: 64px;padding-right: 64px;">Blog's</button></a>
+        <a href="http://www.2fzb.com" target="_blank"><button class="button drive white" style="padding-left: 64px;padding-right: 64px;margin-top: 10px;margin-bottom: 10px;">Tools</button></a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=3241675518&site=%E7%A7%91%E5%AD%A6%E5%88%80&menu=yes&from=discuz" target="_blank"><button class="button smoke dark" style="padding-left: 59px;padding-right: 59px;">Get'QQ</button></a></center>
+    </div>
+    <footer>
+        <h2 style="color: #6f6f6f;"><center>© 2020 <a href="https://www.2fzb.com" target="_blank" style="color: #6f6f6f;">海不眠</a></center></h2>
+    </footer>
+
+<script>
+    $('.button').html((i, html) => {
+        return '<span><i>' + $.trim(html).split('').join('</i><i>') + '</i></span>';
+    });
+</script>
+</body>
+</html>

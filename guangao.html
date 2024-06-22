@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="always">
+    <title>跳转提示 - 安全中心</title>
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/bootstrap/4.6.2/css/bootstrap.min.css"> -->
+<style>body {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 让容器的高度占据整个视口 */
+  @media (min-width:768px)
+  }
+.container,.container-md,.container-sm{max-width:720px}
+@media (min-width:576px){.container,.container-sm{max-width:540px}
+}.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}
+.text-center{text-align:center!important}
+.card-header{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}
+.h3,h3{font-size:1.75rem}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:500;line-height:1.2;margin-top:0}
+.card-body{-ms-flex:1 1 auto;flex:1 1 auto;min-height:1px;padding:1.25rem}
+.text-center{text-align:center!important}
+.mb-3,.my-3{margin-bottom:1rem!important}
+.mt-3,.my-3{margin-top:1rem!important}
+p{margin-top:0;margin-bottom:1rem}
+.text-center{text-align:center!important}
+.btn:not(:disabled):not(.disabled){cursor:pointer}
+.mr-2,.mx-2{margin-right:.5rem!important}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}
+.btn-warning{color:#212529;background-color:#ffc107;border-color:#ffc107}
+.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}
+a{color:#007bff;text-decoration:none;background-color:transparent}
+</style>
+</head>
+<body>
+<div class="container" style="display: flex; justify-content: center; align-items: center;">
+<div class="card" style="width: 40rem;">
+<h3 class="card-header text-center">外部链接跳转警告</h3>
+  <div class="card-body">
+		<div class="text-center my-3">
+	<svg t="1682586846681" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4364" width="100" height="100"><path d="M536.7808 20.829365a188.656941 188.656941 0 0 0 18.383812 16.215341c77.751718 58.741459 218.858918 97.460706 347.569694 105.893647 4.722447 0.301176 10.806212 0.602353 18.239247 0.927623 9.577412 0.385506 17.142965 8.637741 17.142965 18.672942v381.891764c0 90.810729-37.406118 186.006588-97.653459 251.337789-31.274165 43.670588-71.246306 84.630588-113.170071 124.988235-110.832941 120.193506-298.887529 119.675482-419.442447 13.251765-47.381082-41.815341-90.750494-90.690259-130.096188-146.600659C120.591059 722.654871 88.810918 637.686965 88.810918 549.4784V163.213553c0-10.0352 7.565553-18.275388 17.130917-18.672941 8.710024-0.361412 15.781647-0.746918 21.202824-1.120377 129.373365-8.914824 270.649224-48.272565 347.244423-107.700706 4.9152-3.806871 10.324329-8.685929 16.203294-14.613082a32.394541 32.394541 0 0 1 46.188424-0.265035z m52.609506 634.048753H446.367624v143.022682h143.022682V654.878118z m0-393.312377H446.367624l40.863623 357.556706h61.199059l40.96-357.556706z" fill="#FF7980" p-id="4365"></path></svg>
+    </div>
+    <p class="card-text">您即将离开本网站，访问的是其他第三方网站。我们无法保护您在该网站的隐私安全和信息安全以及网站真实内容，请谨慎访问，如需继续访问，请点击下方“<span style="color: #dc3545;">继续访问</span>”进行跳转，如发现链接为非法内容 请点击“<span style="color: #ffc107;">举报链接</span>”进行举报；如需停止访问，可点击“<span style="color: #28a745;">返回主页</span>”即可返回网站主页：</p>
+    <div class="text-center my-3">
+	<a href="https://www.2fzb.biz" class="btn btn-danger mr-2">继续访问</a>
+	<a href="#" class="btn btn-warning mr-2">举报链接</a>
+	<a href="/" class="btn btn-success">返回主页</a>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+
+</html>

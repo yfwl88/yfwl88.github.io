@@ -339,7 +339,7 @@ function join(channel) {
 		// (example: '/chat-ws')
 		var wsPath = ':6060';
 		//ws = new WebSocket(protocol + '//' + document.domain + wsPath);
-		ws = new WebSocket('wss://tmpchat.com/chat-ws');
+		ws = new WebSocket('wss://0203.fun/chat-ws');
 	}
 
 	var wasConnected = false;
@@ -654,7 +654,7 @@ function updateTitle() {
 	if (myChannel) {
 		title = "?" + myChannel;
 	} else {
-		title = "tmpchat.com";
+		title = "0203.fun";
 	}
 
 	if (unread > 0) {
